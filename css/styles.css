@@ -1,10 +1,18 @@
 * {
-  box-sizing: border-box; }
-
+  box-sizing: border-box; 
+}
+h2 {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 1.5em;
+}
 .container {
 	height: 1000px;
 	background-color: #d3d3d3;
-	margin: 15px;
+	width: 95%
 }
 
 #main-content .home-tile {
@@ -14,6 +22,7 @@
 #menu-tile {
 	text-align: center;
 	font-weight: bold;
+	margin-bottom: 15px;
 }
 .navbar-nav {
 	text-align: center;
